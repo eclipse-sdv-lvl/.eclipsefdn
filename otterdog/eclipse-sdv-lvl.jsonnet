@@ -16,15 +16,15 @@ orgs.newOrg('automotive.sdv-lvl', 'eclipse-sdv-lvl') {
     orgs.newRepo('sdv-lvl') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      code_scanning_default_setup_enabled: true,
-      code_scanning_default_languages+: [
-        "python"
-      ],
+      // code_scanning_default_setup_enabled: true,
+      // code_scanning_default_languages+: [
+      //   "python"
+      // ],
       description: "Main repository of the SDV Level project.",
       homepage: "https://eclipse-sdv-lvl.github.io/",
       topics+: [
-        "Software-defined vehicle",
-        "SDV levels"
+        "software-defined-vehicle",
+        "sdv-levels"
       ],
       has_discussions: true,
       rulesets: [
